@@ -10,7 +10,7 @@ const char* riff_magic = "RIFF";
 
 
 
-/* Code pulled from */
+/* Code pulled from https://github.com/bisqwit/speech_synth_series/blob/master/ep2-pcmaudio/pcmaudio-tiny2.cc*/
 struct AudioPlayer
 {
     SDL_AudioSpec spec {};

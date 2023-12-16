@@ -1,0 +1,19 @@
+wav-play is a simple and lightweight console based WAVE file player.
+
+Dependencies:
+  Simple DirectMedia Layer 2 (SDL2) - https://www.libsdl.org/
+
+Code Used:
+  Joel Yliluoma — https://bisqwit.iki.fi/ (https://github.com/bisqwit/speech_synth_series/blob/master/ep2-pcmaudio/pcmaudio-tiny2.cc)
+
+
+Building/Usage:
+  To build wavplay run make in the root directory. In order to use
+  wavplay you must run "./wavplay <your wav file>".
+
+Testing:
+  1."./wavplay Test_Outlier_Audio.wav"
+  2."./wavplay Greek_National_Anthem.wav"
+
+Known Bugs:
+  Once a file starts to play it cannot be stopped via a keyboard interrupt or by SIGTERM and can only be killed with a SIGKILL signal.
